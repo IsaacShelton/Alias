@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Change current alias"
+        android:icon="@drawable/ic_face_white_24dp"
+        app:showAsAction="ifRoom"
+        android:id="@+id/menu_change_alias"/>
+
+    <item android:title="Follow topic"
+        android:icon="@drawable/ic_favorite_white_24dp"
+        app:showAsAction="ifRoom"
+        android:id="@+id/menu_follow_topic"/>
+
+    <item android:title="Delete topic" app:showAsAction="never"
+        android:id="@+id/menu_delete_topic"/>
+
+    <item android:title="Sign out" app:showAsAction="never"
+        android:id="@+id/menu_sign_out"/>
+
+</menu>
